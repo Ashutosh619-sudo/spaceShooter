@@ -55,9 +55,6 @@ class Player(pygame.sprite.Sprite):
         self.reset()
         self.lasertimer = 0
         self.lasermax = 5
-        self.bombamount = 1
-        self.bombtimer = 0
-        self.bombmax = 10
 
     def update(self):
         self.rect.move_ip(self.dx,self.dy)
